@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Post Title — blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <!-- MathJax for LaTeX math rendering -->
+  <script>
+    MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+      color: #1a1a1a;
+      background: #fff;
+      padding: 60px 24px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    /* ── Site header ── */
+    .site-header {
+      margin-bottom: 48px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .site-header a {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 28px;
+      font-weight: 600;
+      color: #1a6ef5;
+      text-decoration: none;
+      letter-spacing: -0.5px;
+    }
+
+    /* ── Post header ── */
+    .post-title {
+      font-family: 'Lora', serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 1.3;
+      letter-spacing: -0.3px;
+      margin-bottom: 8px;
+    }
+
+    .post-meta {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 32px;
+    }
+
+    /* ── Divider under title ── */
+    .post-title + .post-meta {
+      padding-bottom: 32px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    /* ── Body content ── */
+    .post-body h2 {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 21px;
+      font-weight: 700;
+      margin-top: 48px;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .post-body h3 {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 32px;
+      margin-bottom: 12px;
+    }
+
+    .post-body p {
+      margin-bottom: 20px;
+      color: #222;
+    }
+
+    .post-body a {
+      color: #1a6ef5;
+      text-decoration: none;
+    }
+
+    .post-body a:hover {
+      text-decoration: underline;
+    }
+
+    /* Code */
+    .post-body code {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      font-size: 14px;
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .post-body pre {
+      background: #f4f4f4;
+      border-radius: 6px;
+      padding: 20px;
+      overflow-x: auto;
+      margin-bottom: 24px;
+    }
+
+    .post-body pre code {
+      background: none;
+      padding: 0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* Math display blocks */
+    .post-body .math-block {
+      text-align: center;
+      margin: 28px 0;
+      font-size: 18px;
+    }
+
+    /* Blockquote */
+    .post-body blockquote {
+      border-left: 3px solid #1a6ef5;
+      padding-left: 20px;
+      margin: 24px 0;
+      color: #555;
+      font-style: italic;
+    }
+
+    /* Images */
+    .post-body img {
+      max-width: 100%;
+      border-radius: 6px;
+      margin: 24px 0;
+      display: block;
+    }
+
+    .post-body img + em {
+      display: block;
+      text-align: center;
+      font-size: 14px;
+      color: #888;
+      margin-top: -16px;
+      margin-bottom: 24px;
+    }
+
+    /* Lists */
+    .post-body ul, .post-body ol {
+      padding-left: 24px;
+      margin-bottom: 20px;
+    }
+
+    .post-body li {
+      margin-bottom: 6px;
+    }
+
+    /* ── Footer ── */
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid #e5e5e5;
+      font-size: 14px;
+      color: #888;
+    }
+
+    footer a {
+      color: #1a6ef5;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="../index.html">blog</a>
+  </header>
+
+  <!-- ═══ POST STARTS HERE ═══ -->
+
+  <h1 class="post-title">Your Post Title Goes Here</h1>
+  <p class="post-meta">April 17, 2026</p>
+
+  <article class="post-body">
+
+    <h2>Background and motivation</h2>
+
+    <p>
+      Write your introduction paragraph here. You can use <a href="#">links like this</a>,
+      <strong>bold text</strong>, and <em>italics</em> naturally inline.
+    </p>
+
+    <p>
+      Add more paragraphs by duplicating <code>&lt;p&gt;</code> tags.
+      Each paragraph gets a small gap below it automatically.
+    </p>
+
+    <h2>Introduction and definitions</h2>
+
+    <p>
+      You can write inline math like $\lambda x.\, x$ using dollar signs,
+      or display math in a centered block:
+    </p>
+
+    <div class="math-block">
+      $$f(x) = x^2 + x + 1 \quad\Longleftrightarrow\quad \lambda x.\, x^2 + x + 1$$
+    </div>
+
+    <p>
+      Explanation of the equation above goes here.
+    </p>
+
+    <h2>Code examples</h2>
+
+    <p>Inline code looks like <code>print("hello")</code>. For blocks:</p>
+
+    <pre><code># Python example
+def identity(x):
+    return x
+
+# Lambda calculus: λx. x
+identity = lambda x: x</code></pre>
+
+    <h2>Section heading</h2>
+
+    <p>Keep adding <code>&lt;h2&gt;</code> headings and <code>&lt;p&gt;</code> paragraphs
+    for each section. Use <code>&lt;h3&gt;</code> for sub-sections.</p>
+
+    <blockquote>
+      Use blockquotes for callouts, notable quotes, or important asides.
+    </blockquote>
+
+    <ul>
+      <li>Bullet points work like this</li>
+      <li>Just use a <code>&lt;ul&gt;</code> with <code>&lt;li&gt;</code> items</li>
+    </ul>
+
+  </article>
+
+  <!-- ═══ POST ENDS HERE ═══ -->
+
+  <footer>
+    <a href="../index.html">← back to blog</a>
+  </footer>
+
+</body>
+</html>
